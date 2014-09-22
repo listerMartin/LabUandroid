@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#ff36a7b8</color>
+    <color name="list_background">#ff375154</color>
+    <color name="list_background_pressed">#ffaedae0</color>
+    <color name="list_divider">#ff375154</color>
+    <color name="counter_text_bg">#ffaedae0</color>
+    <color name="counter_text_color">#ffaedae0</color>
+</resources>
