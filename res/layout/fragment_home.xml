@@ -9,19 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/btnAddComment"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="85sp"
-            android:layout_marginTop="51dp"
-            android:background="#63B8FF"  
-            android:textColor="#000033"
-            android:onClick="addcomment"
-            android:text="ADD COMMENTS" />
     </LinearLayout>
 
     <LinearLayout
@@ -30,10 +17,11 @@
         android:orientation="horizontal" >
 
         <ListView
-            android:id="@+id/lstComments"
+            android:id="@+id/lstRooms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:background="#000fff"
             android:layout_alignParentLeft="true" >
         </ListView>
     </LinearLayout>

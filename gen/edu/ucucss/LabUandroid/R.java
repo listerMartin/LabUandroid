@@ -30,6 +30,11 @@ public final class R {
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
+         Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
+    
+
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
@@ -53,33 +58,40 @@ public final class R {
         public static final int schedule=0x7f02000c;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0010;
-        public static final int btnAddComment=0x7f0a0008;
-        public static final int btnSaveComment=0x7f0a000d;
-        public static final int button1=0x7f0a0006;
+        public static final int action_settings=0x7f0a0015;
+        public static final int btnSaveComment=0x7f0a0010;
+        public static final int btnSaveRoom=0x7f0a0009;
+        public static final int button1=0x7f0a000a;
         public static final int counter=0x7f0a0005;
         public static final int drawer_layout=0x7f0a0000;
+        public static final int editText1=0x7f0a0008;
+        public static final int filterInfoTv=0x7f0a0014;
+        public static final int filterNameTv=0x7f0a0013;
         public static final int frame_container=0x7f0a0001;
         public static final int icon=0x7f0a0003;
-        public static final int listView1=0x7f0a0007;
+        public static final int listView1=0x7f0a000b;
         public static final int list_slidermenu=0x7f0a0002;
-        public static final int lstComments=0x7f0a0009;
-        public static final int lstEquipment=0x7f0a000e;
-        public static final int spinCommentLab=0x7f0a000a;
+        public static final int lstEquipment=0x7f0a0011;
+        public static final int lstRooms=0x7f0a000c;
+        public static final int spinCommentLab=0x7f0a000d;
         public static final int title=0x7f0a0004;
-        public static final int txtCommentDes=0x7f0a000c;
-        public static final int txtCommentPcname=0x7f0a000b;
-        public static final int txtLabel=0x7f0a000f;
+        public static final int txtCommentDes=0x7f0a000f;
+        public static final int txtCommentPcname=0x7f0a000e;
+        public static final int txtLab=0x7f0a0006;
+        public static final int txtLabel=0x7f0a0012;
+        public static final int txtNoPc=0x7f0a0007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int drawer_list_item=0x7f030001;
-        public static final int fragment_equipments=0x7f030002;
-        public static final int fragment_home=0x7f030003;
-        public static final int fragment_manage=0x7f030004;
-        public static final int fragment_pages=0x7f030005;
-        public static final int fragment_schedule=0x7f030006;
-        public static final int fragment_whats_hot=0x7f030007;
+        public static final int fragment_add_rooms=0x7f030002;
+        public static final int fragment_equipments=0x7f030003;
+        public static final int fragment_home=0x7f030004;
+        public static final int fragment_manage=0x7f030005;
+        public static final int fragment_pages=0x7f030006;
+        public static final int fragment_schedule=0x7f030007;
+        public static final int fragment_whats_hot=0x7f030008;
+        public static final int list_view_row=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -93,6 +105,7 @@ public final class R {
         public static final int drawer_close=0x7f060004;
         public static final int drawer_open=0x7f060003;
         public static final int hello_world=0x7f060002;
+        public static final int title_activity_add_rooms=0x7f060006;
     }
     public static final class style {
         /** 
