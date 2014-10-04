@@ -7,56 +7,14 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
 
         <ListView
             android:id="@+id/lstRooms"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:background="#000fff"
-            android:layout_alignParentLeft="true" >
+            android:layout_height="match_parent" >
         </ListView>
     </LinearLayout>
-
-    <Spinner
-        android:id="@+id/spinCommentLab"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:visibility="gone" />
-
-    <EditText
-        android:id="@+id/txtCommentPcname"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:hint="PC-Name"
-        android:visibility="gone" />
-
-    <EditText
-        android:id="@+id/txtCommentDes"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:hint="Description"
-        android:visibility="gone" />
-
-    <Button
-        android:id="@+id/btnSaveComment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:background="#63B8FF"
-        android:text="Save"
-        android:textColor="#000033"
-        android:visibility="gone" />
 
 </LinearLayout>

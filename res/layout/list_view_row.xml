@@ -2,20 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0066CC"
+    android:background="#ffffff"
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/filterNameTv"
+        android:id="@+id/txtLab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#300000"
-        android:gravity="center" />
+        android:background="#000fff"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:text="dddd" />
 
     <TextView
-        android:id="@+id/filterInfoTv"
+        android:id="@+id/txtPC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#300000" />
+        android:textSize="15sp"
+        android:background="#000fff"
+        android:text="wsss" />
 
 </LinearLayout>
