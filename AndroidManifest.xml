@@ -24,8 +24,11 @@
         </activity>
         <activity
             android:name="edu.ucuccs.LabUandroid.AddRooms"
-            android:label="@string/title_activity_add_rooms"
-           >
+            android:label="@string/title_activity_add_rooms" >
+        </activity>
+        <activity
+            android:name="edu.ucuccs.LabUandroid.AddSchedule"
+            android:label="@string/title_activity_add_schedule" >
         </activity>
     </application>
 

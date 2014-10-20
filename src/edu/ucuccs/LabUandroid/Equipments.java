@@ -46,8 +46,8 @@ public class Equipments extends Fragment {
 		}
 		adapter1 = new SimpleAdapter(getActivity(), data, R.layout.list_equipment,
 				new String[] { "labname", "pcname", "equipment",
-						"comment" }, new int[] { R.id.textView1,
-						R.id.textView2, R.id.textView3,
+						"comment" }, new int[] { R.id.labinschedule,
+						R.id.textView2, R.id.codeInList,
 						R.id.textView4});
 		listahanNgEquipment.setAdapter(adapter1);
 	}

@@ -3,7 +3,7 @@
     android:layout_height="fill_parent" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/labinschedule"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -19,12 +19,12 @@
         android:layout_width="wrap_content"
         android:layout_height="40dip"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/labinschedule"
         android:textSize="18sp"
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/codeInList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView2"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView2"
-        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignLeft="@+id/codeInList"
         android:text="TextView" />
 
 </RelativeLayout>

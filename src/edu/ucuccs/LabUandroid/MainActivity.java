@@ -186,6 +186,10 @@ public class MainActivity extends Activity {
 		case 4:
 			fragment = new AddRooms();
 			break;
+			
+		case 5:
+			fragment = new AddSchedule();
+			break;
 
 		default:
 			break;
