@@ -9,13 +9,15 @@ package edu.ucucss.LabUandroid;
 
 public final class R {
     public static final class array {
+        public static final int AddingComment=0x7f070001;
         /**  Nav Drawer List Item Icons 
  Keep them in order as the titles are in 
          */
-        public static final int nav_drawer_icons=0x7f070001;
+        public static final int nav_drawer_icons=0x7f070003;
         /**  Nav Drawer Menu Items 
          */
-        public static final int nav_drawer_items=0x7f070000;
+        public static final int nav_drawer_items=0x7f070002;
+        public static final int pagpipilian=0x7f070000;
     }
     public static final class attr {
     }
@@ -58,23 +60,35 @@ public final class R {
         public static final int schedule=0x7f02000c;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0010;
+        public static final int action_settings=0x7f0a001c;
         public static final int btnSaveRoom=0x7f0a0009;
-        public static final int button1=0x7f0a000a;
+        public static final int button1=0x7f0a000e;
         public static final int counter=0x7f0a0005;
         public static final int drawer_layout=0x7f0a0000;
         public static final int editText1=0x7f0a0008;
         public static final int frame_container=0x7f0a0001;
         public static final int icon=0x7f0a0003;
-        public static final int listView1=0x7f0a000b;
+        public static final int listView1=0x7f0a000f;
         public static final int list_slidermenu=0x7f0a0002;
-        public static final int lstEquipment=0x7f0a000d;
-        public static final int lstRooms=0x7f0a000c;
+        public static final int lstEquipments=0x7f0a000a;
+        public static final int lstPC=0x7f0a000c;
+        public static final int lstRooms=0x7f0a000b;
+        public static final int textView1=0x7f0a0010;
+        public static final int textView2=0x7f0a0011;
+        public static final int textView3=0x7f0a0013;
+        public static final int textView4=0x7f0a0012;
         public static final int title=0x7f0a0004;
+        public static final int txtComment=0x7f0a0018;
+        public static final int txtEquipment=0x7f0a0017;
         public static final int txtLab=0x7f0a0006;
-        public static final int txtLabel=0x7f0a000e;
+        public static final int txtLabIdinList=0x7f0a0019;
+        public static final int txtLabNameInList=0x7f0a001a;
+        public static final int txtLabNameinPCList=0x7f0a0015;
+        public static final int txtLabel=0x7f0a000d;
         public static final int txtNoPc=0x7f0a0007;
-        public static final int txtPC=0x7f0a000f;
+        public static final int txtPCInList=0x7f0a001b;
+        public static final int txtPCNameinPCList=0x7f0a0016;
+        public static final int txtidpc=0x7f0a0014;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -86,7 +100,9 @@ public final class R {
         public static final int fragment_pages=0x7f030006;
         public static final int fragment_schedule=0x7f030007;
         public static final int fragment_whats_hot=0x7f030008;
-        public static final int list_view_row=0x7f030009;
+        public static final int list_equipment=0x7f030009;
+        public static final int list_of_pc=0x7f03000a;
+        public static final int list_view=0x7f03000b;
     }
     public static final class menu {
         public static final int main=0x7f090000;

@@ -4,26 +4,14 @@
     android:layout_height="match_parent"
     android:background="#F0F8FF" >
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="51dp"
-        android:background="#63B8FF"
-        android:text="Add Equipments"
-        android:textColor="#000033" />
-
     <ListView
-        android:id="@+id/listView1"
+        android:id="@+id/lstEquipments"
         android:layout_width="match_parent"
         android:layout_height="170dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="26dp"
-        android:layout_marginLeft="30dp" >
+        android:layout_alignParentTop="true" >
+
     </ListView>
 
 </RelativeLayout>

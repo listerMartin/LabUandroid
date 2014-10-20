@@ -18,8 +18,8 @@ public class AddRooms extends Fragment {
 	Button btnSaveRooms;
 
 	DatabaseHandler db;
-
-	
+	int noPc;
+	String pcname = "";
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -29,14 +29,26 @@ public class AddRooms extends Fragment {
 		db = new DatabaseHandler(getActivity());
 		txtLab = (EditText) rootView.findViewById(R.id.txtLab);
 		txtPC = (EditText) rootView.findViewById(R.id.txtNoPc);
+		
 		btnSaveRooms = (Button) rootView.findViewById(R.id.btnSaveRoom);
-
+		
 		btnSaveRooms.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
+				noPc = Integer.parseInt(txtPC.getText().toString());
 				db.insertTask(new RoomsTask(txtLab.getText().toString(), txtPC
-						.getText().toString()));
-
+						.getText().toString() + " - Personal Computer"));
+				for(int numpc = 1; numpc <= noPc; numpc++){
+					pcname = "PC-" + numpc;
+					db.insertPC(new PCtask(txtLab.getText().toString(), pcname ));
+					
+				}
+				
+				txtLab.setText("");
+				txtPC.setText("");
+				 
+				
+				
 				Intent i = new Intent(getActivity(), MainActivity.class);
 				Bundle bundle = new Bundle();
 				bundle.putInt("position", 0);
@@ -49,5 +61,4 @@ public class AddRooms extends Fragment {
 		return rootView;
 
 	}
-
 }
